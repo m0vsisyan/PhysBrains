@@ -1,0 +1,209 @@
+body {
+    font-family: "Armfont"; 
+    height: 3000px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#overlay,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8,
+#overlay9,
+#overlay10 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #031424;
+    opacity: 0.7;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.-top {
+    position: relative;
+    top: 60px;
+}
+.box {
+    height: auto;
+    width: 100%;
+    border: none;
+    margin: 5px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    z-index: 1;
+}
+
+#myInput {
+    background-image: url('search.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    outline: none;
+    z-index: 1;
+}
+
+#myUL {
+    position: relative;
+    top: 60px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: #f1f1f1;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #031424;
+    display: block;
+}
+
+.bottom {
+    box-shadow: 0 5px 5px -5px #c7c7c7;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+.footer {
+    border: none;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #031424;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footer a {
+    position: relative;
+    top: 7px;
+    transition: 0.1s;
+    font-size: 23px;
+    z-index: 2;
+    padding: 5%;
+}
+
+.f1,
+.f2,
+.f4,
+.f5 {
+    color: #c7c7c7;
+}
+
+.f3 {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+.myDiv {
+    font-family: 'Quicksand';
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-nav {
+    padding-left: 15px;
+    display: flex;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar-nav a {
+    background-color: transparent;
+    border: none;
+    padding: 5px 12px;
+    position: relative;
+}
+
+.navbar-brand2 {
+    visibility: visible;
+    margin: auto;
+}
+.logo1 {
+    position: relative;
+    top: -10px;
+    width: 170px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.phb {
+    position: fixed;
+    top: -5px;
+    background-color: #031424;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    height: 70px;
+}
+@media(max-width: 576px) {
+    #hpac {
+        font-size: 20px;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    .navbar {
+        height: 0px;
+    }
+}
+@media(max-width:400px) {
+    #text {
+        font-size: 31px;
+    }
+}
+
+@font-face {
+    src: url("Quicksand-Regular.ttf");
+    font-family: "Quicksand";
+}
+@font-face {
+    src: url("Armfont.ttf");
+    font-family: "Armfont";
+}

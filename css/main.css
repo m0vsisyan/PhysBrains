@@ -1,0 +1,801 @@
+html {
+    background-color: #f1f1f1;
+}
+
+body {
+    margin: 0;
+    font-family: 'Armfont';
+    transition: background-color .5s;
+    background-image: url("1.jpg");
+        
+}
+
+/* --- Sidebar --- */
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+li a {
+    font-size: 25px;
+    cursor: pointer;
+    padding: 20px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Armfont';
+    transition: .4s ease-in-out;
+    display: block;
+    color: #fff;
+    margin-top: 0px;
+    outline: none;
+}
+.logo1 {
+    width: 170px;
+}
+
+.logo2 {
+    display: none;
+    position: relative;
+    top: 0px;
+    right: -210px;
+    cursor: pointer;
+}
+
+.logo3 {
+    display: none;
+    position: relative;
+    top: -75px;
+    right: -20px;
+    cursor: pointer;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;;
+}
+
+.navbar-nav {
+    padding-left: 15px;
+    display: flex;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+.nav-link {
+    color: #fff;
+}
+.navbar-nav a {
+    background-color: transparent;
+    border: none;
+    padding: 5px 12px;
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+        position: absolute;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 3px;
+        background: darkturquoise;
+        bottom: -34px;
+        transform: scale(0, 1.5);
+        transition: transform .3s;
+        transform-origin: center;
+}
+.navbar-nav .nav-link:hover::after {
+        transform: scale(1, 1.5);
+}
+
+.underline {
+        background-color: darkturquoise;
+        display: inline-block;
+        height: 2px;
+        position: relative;
+        top: -90px;
+        margin-top: 20px;
+        -webkit-transform: scale(0, 1);
+        transform: scale(0, 1);
+        -webkit-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        width: 20px;
+}
+.profile {
+    padding: 5px;
+}
+
+.profile h4 {
+    padding-bottom: 10px;
+}
+
+.mydiv {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.image {
+    display: block;
+    position: relative;
+    left: 20px;
+    width: 70%;
+    height: auto;
+    border-radius: 360px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00ced1;
+    border-radius: 360px;
+}
+
+.mydiv:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.icon a:hover {
+    color: #eee;
+}
+
+/* --- Lines --- */
+
+.line {
+    background-color: #c7c7c7;
+    height: 1px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+}
+
+.line2 {
+    background-color: #c7c7c7;
+    height: 1px;
+    width: 200px;
+    position: relative;
+    left: 0px;
+}
+
+.line3 {
+    background-color: #c7c7c7;
+    height: 1px;
+    width: 200px;
+    position: relative;
+    left: 0px;
+}
+
+.line4 {
+    background-color: #f1f1f1;
+    list-style-type: none;
+    text-decoration: none;
+    height: 70px;
+    width: 1px;
+    position: relative;
+}
+
+.line5 {
+    background-color: #00ced1;
+    list-style-type: none;
+    text-decoration: none;
+    height: 5px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    margin: auto;
+    z-index: 1;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #031424;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.sidenav a img {
+    padding-right: 10px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav h5,
+h6 {
+    color: #fff;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.closebtn {
+    position: relative;
+    top: -20px;
+    z-index: 3;
+}
+
+/* --- Opening tabs in hover --- */
+
+#mySidenav2 a {
+    height: 50px;
+    position: absolute;
+    left: -318px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 363px;
+    font-size: 35px;
+    color: white;
+    border-radius: 10px;
+    z-index: 2;
+    background-color: #031424;
+}
+#mySidenav2 {
+    position: fixed;
+    top: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#mySidenav2 i {
+    position: absolute;
+    left: 60px;
+}
+
+#mySidenav2 a:hover {
+    left: -30px;
+    background-color: #00ced1;
+}
+
+.secondary {
+    font-size:15px;
+    display: inline-block;
+    font-family: 'Armfont';
+    padding-left: 10px;
+    position: relative;
+    top: -6px;
+}
+#home {
+    z-index: 2;
+    top: 140px;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+#envelope {
+    z-index: 2;
+    top: 200px;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+#search {
+    z-index: 2;
+    top: 260px;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+#like {
+    z-index: 2;
+    top: 320px;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+#user {
+    z-index: 2;
+    top: 380px;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+#mySidenav3 a {
+    height: 50px;
+    position: fixed;
+    right: 0;
+    transition: 0.3s;
+    padding: 15px;
+    width: 70px;
+    font-size: 40px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 2;
+    background-color: #031424;
+}
+
+#settings a:focus {
+    position: relative;
+    right: 70px;
+}
+#settings {
+    z-index: 2;
+    top: 50%;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+.todo2 {
+    height: 40px;
+}
+
+.cal {
+    height: 40px;
+}
+
+/*------sidenave icons-------*/
+
+#icons {
+    position: absolute;
+    text-align: left;
+    top: 7px;
+}
+
+/* --- Dotes --- */
+
+#dotes {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    display: block;
+        text-align: right;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+/* --- Texts --- */
+
+.wip {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.wip2 {
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    line-height: 1.6;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: inline-block;
+}
+
+.wip3 {
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    line-height: 1.6;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: inline-block;
+}
+
+.wip4 {
+    text-align: center;
+    color: #777;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: inline-block;
+}
+
+/* --- footer --- */
+
+.footer {
+    border: none;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #031424;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footer a {
+    position: relative;
+    top: 7px;
+    transition: 0.1s;
+    font-size: 23px;
+    z-index: 3;
+    padding: 5%;
+}
+
+.f2,
+.f3,
+.f4,
+.f5 {
+    color: #c7c7c7;
+}
+
+.f1 {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+/* --- News --- */
+
+.parallax {
+    background-image: url("white-business.png");
+    background-size: 1000px;
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moon {
+    width: 25%;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 50px;
+    float: left;
+}
+
+._me {
+    color: #031424;
+    font-size: 40px;
+    font-family: 'Baloo Thambi';
+    padding-top: 200px;
+    text-align: center;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('/Images/OIUFOY0.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* --- --- */
+@media(max-width: 1650px) {
+    .wip3 {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 576px) {
+    .line4 {
+        height: 110px;
+    }
+    .wip {
+        font-size: 25px;
+    }
+    .wip2 {
+        font-size: 15px;
+    }
+    .wip4 {
+        font-size: 15px;
+    }
+    #hpac {
+        font-size: 20px;
+    }
+    #dotes {
+        display: none;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    .line4 {
+        display: none;
+    }
+    .phb {
+        position: fixed;
+        top: -5px;
+        background-color: #031424;
+        width: 100%;
+        left: 0;
+        height: auto;
+        text-align: center;
+    }
+    .logo1 {
+        position: relative;
+        top: 50%;
+    }
+    .navbar {
+        height: 0px;
+    }
+    ._me {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:500px) {
+    .wip4 {
+        display: none;
+    }
+}
+
+@media(max-width:334px) {
+    .line4 {
+        /*  height: 1px;
+        width: 150px;
+        position: absolute;
+        top: -120px;
+        margin: auto;
+        right: 0;
+        bottom: 0;
+        left: 0;  */
+        display: none;
+    }
+    .wip {
+        font-size: 20px;
+    }
+    .wip2 {
+        font-size: 13px;
+    }
+    .navbar-brand img {
+        width: 170px;
+        padding-top: 0px;
+    }
+    .navbar-nav {
+        padding-top: 70px;
+        padding-left: 0px;
+        width: 100%;
+        display: none;
+    }
+    .navbar-nav a {
+        text-align: center;
+        float: none;
+    }
+    .navbar {
+        position: absolute;
+        height: 0px;
+    }
+    .phb {
+        position: fixed;
+        top: -5px;
+        background-color: #031424;
+        width: 100%;
+        left: 0;
+        height: auto;
+        text-align: center;
+    }
+    .logo1 {
+        width: 170px;
+    }
+    .navbar-nav #hpac:before,
+    .navbar-nav #hpac:after {
+        content: "";
+        width: 0;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+    }
+    .navbar-nav #hpac:hover:before,
+    .navbar-nav #hpac:hover:after {
+        width: 40%;
+    }
+}
+
+@media(max-width: 280px) {
+
+    .line4 {
+        /*   height: 1px;
+        width: 150px;
+        position: absolute;
+        top: -120px;
+        margin: auto;
+        right: 0;
+        bottom: 0;
+        left: 0;  */
+        display: none;
+    }
+    .wip {
+        font-size: 20px;
+    }
+    .wip2 {
+        font-size: 13px;
+    }
+    .navbar-brand img {
+        width: 170px;
+        padding-top: 0px;
+    }
+    .navbar {
+        position: absolute;
+        height: 0px;
+    }
+    .logo1 {
+        width: 170px;
+    }
+    /* .logo2 {
+        display: block;
+    }
+    .logo3 {
+        display: block;
+    } */
+}
+
+/* --- Demo with Parallax Scrolling --- */
+
+body,
+html {
+    height: 100%;
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* --- Snackbar --- 
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    color: #333;
+    border-radius: 2px;
+    padding-top: 300px;
+    position: fixed;
+    z-index: 10;
+    left: 40%;
+    font-size: 30px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 2s, fadeout 2s 4s;
+    animation: fadein 2s, fadeout 2s 4s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* --- Footer --- */
+
+.counter {
+    display: table-cell;
+    margin-right: 150px;
+    font-size: 50px;
+    border: 2px solid #031424;
+    color: #031424;
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.counter2 {
+    display: table-cell;
+    margin: auto;
+    font-size: 50px;
+    border: 2px solid #031424;
+    color: #031424;
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*---myFont---*/
+
+@font-face {
+    src: url("Quicksand-Regular.ttf");
+    font-family: "Quicksand";
+}
+@font-face {
+    src: url("Baloo-Thambi.ttf");
+    font-family: "Baloo Thambi";
+}
+@font-face {
+    src: url("Armfont.ttf");
+    font-family: "Armfont";
+}

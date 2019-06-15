@@ -1,0 +1,63 @@
+HTML
+
+<head>
+<link rel="stylesheet" type="text/css" href="hover_underline.css">
+</head>
+<p>Center</p>
+<ul class="row">
+  <li><a href="#">menu01</a></li>
+  <li><a href="#">menu02</a></li>
+  <li><a href="#">menu03</a></li>
+</ul>
+
+
+CSS
+
+body {
+  margin: 5em 0 10em;
+}
+
+p {
+  margin: 5em 0 1.5em;
+  font-size: 28px;
+  font-family: 'Baloo Thambi', cursive;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  margin: 0 2em;
+}
+ul li a {
+  color: #031424;
+  font-size: 18px;
+  font-family: 'Baloo Thambi', cursive;
+  font-weight: 400;
+}
+
+.row a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.row a::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: darkturquoise;
+  bottom: -4px;
+  transform: scale(0, 1);
+  transition: transform .3s;
+  transform-origin: center top;
+}
+.row a:hover::after {
+  transform: scale(1, 1);
+}

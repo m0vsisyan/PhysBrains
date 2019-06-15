@@ -1,0 +1,827 @@
+            
+/*--դեպի վար իջնող մենյուի ցանկի դիզայն-----*/
+a {
+    outline: none;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none; 
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    text-align: center;
+     height: 80px;
+    margin-top:0px;
+     top: 0px;
+    background-color:#031424;
+    padding-left:5px;
+    z-index: 100;
+} 
+li {
+    float: left;
+}
+li a {
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 20px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Noto Sans', cursive;
+        transition: .4s ease-in-out;
+    display: block;
+    color: white;
+    margin-top: 0px; 
+    height: 35px;
+}
+body {
+    margin: 0;
+    font-family: 'Noto Sans', cursive;
+    transition: background-color .5s;
+}
+
+/*-------մենյուի մկնիկի հպում-----*/
+li a:hover {
+    background-color:darkturquoise;
+    transition: .6s ease;
+    height: 100%;
+    
+}
+.signin {
+    float:right;
+}
+.container {
+    background-color:#031424; 
+    position:absolute;
+    width: 0px;
+    height:100px;
+}
+#mySidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    right: 0;
+    background-color:#031224;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: white;
+} 
+
+.sidenav {
+    position:relative;
+    top: -20px;
+    z-index: -1;
+}
+.closebtn {
+    position:relative;
+    top: -20px;
+    z-index: -1;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+/*--- myDiv-երը ---*/
+.myDiv {
+    position: relative;
+    text-align: center;
+    top: -280px;
+    font-size: 100px;
+    color: darkturquoise;
+    cursor:pointer;
+    z-index: 20;
+} 
+.myDiv2 {
+    font-size: 90px;
+    position: relative;
+    text-align: center;
+    top: -480px; 
+    color: white;
+    z-index: 30;
+}
+.myDiv3{
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    top: -680px; 
+    color: white;
+    z-index: 20;
+}
+.myDiv4{
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+    top: -1050px; 
+    color: white;
+    z-index: 20;
+}
+.myDiv5{
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+    top: -1850px; 
+    color: white;
+    z-index: 20;
+}
+.myDiv6{
+    font-size: 60px;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    top: -2350px; 
+    color: white;
+    z-index: 20;
+}
+.myDiv7 {
+    font-size: 50px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    top: -2870px; 
+    color: white;
+    z-index: 20;
+}
+.myDiv8 {
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+    top: -3400px; 
+    color: white;
+    z-index: 30;
+}
+/*---Image-ներ որոնք փոքրանում են մոբայլի համար---*/
+.myImg{
+    width: 540px;
+    font-size: 100px;
+    position:relative;
+    top: -900px; 
+    left: 1350px;
+}
+.Sun {
+    position: relative;
+    top: -1600px;
+    left: 50px;
+    width: 600px;
+}
+.jupsat {
+    position: relative;
+    left: 180px;
+    top: -2350px;
+}
+.FOOF {
+    width: 25%;
+    position: relative;
+    top: -2850px;
+    right: -150px;
+}
+.aristotle {
+    position:relative;
+    width: 15%;
+    top: -3400px; 
+    left: 150px;
+}
+/*---     ---*/
+#mySidenav a {
+    font-size:25px;
+}
+#mySidenav2 a {
+height:20px;
+    position: fixed;
+    left: -135px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    font-size: 40px;
+    color: white;
+    border-radius:10px;
+    z-index: 50;
+}
+#mySidenav2 i {
+    position: absolute;
+    left: 90px;
+    }
+
+#mySidenav2 a:hover {
+    left: -50px;
+}
+/*-----      -----*/
+.opening {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    color: white;
+    left: 1650px;
+    z-index: 150;
+}
+.d2 {
+    width: 55%;
+}
+/*--- @media-ներ ---*/
+@media screen and (max-height: 1450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media(max-width:1920px) {
+    .myDiv2 {
+        font-size: 65px;
+    }
+    .myDiv8 {
+        font-size: 63px;
+    }
+}
+@media(max-width:1900px) {
+    .myImg {
+        width: 20%;
+        position: relative;
+        left: 50px; 
+    }
+    .myDiv2 {
+        font-size: 70px;
+    }
+    .opening {
+        position: relative;
+        left: 500px;
+        width: 20%;
+    }
+}
+@media(max-width:1800px) {
+     .myDiv6 {
+        font-size: 45px;
+    }
+    .myDiv7 {
+        font-size: 45px;
+    }
+    
+}
+@media(max-width:1500px) {
+    .myDiv2 {
+       font-size: 65px;
+    } 
+    .myDiv8 {
+        font-size: 60px;
+    }
+    .myImg {
+        width: 20%;
+        position: relative;
+        padding-bottom: 100px;
+        left: 50px; 
+    }
+    .aristotle {
+        position: relative;
+        width: 20%;
+        left: 50px;
+    }
+}
+@media(max-width:1400px) {
+    .myDiv2 {
+        font-size: 50px;
+    }
+    .myDiv5 {
+        font-size: 40px;
+    }
+    
+}
+@media(max-width:1300px) {
+    .myDiv {
+        font-size: 45px;
+    }
+    .myDiv6 {
+        font-size: 35px;
+    }
+    .myDiv7 {
+        font-size: 35px;
+    }
+}
+@media(max-width:1180px) {
+    .myDiv {
+        font-size: 50px;
+    }
+    .myDiv5 {
+        font-size: 35px;
+    }
+}
+@media(max-width:1100px) {
+    
+     .myDiv2 {
+       font-size: 40px;
+    }
+     .myDiv4 {
+        font-size: 50px;
+    }
+    .myDiv5 {
+        font-size: 50px;
+    }
+    .myDiv6 {
+        font-size: 30px;
+    }
+    .myDiv7 {
+        font-size: 30px;
+    }
+    .myDiv8 {
+        font-size: 40px;
+    }
+    .Sun { 
+        position: relative;
+        width: 35%;
+        padding-bottom:250px;
+    }
+    .myImg {
+        width: 20%;
+    }
+    .jupsat { 
+        position: relative;
+        width: 50%;
+        left: 50px;
+    }
+    .aristotle {
+        position: relative;
+        width: 20%;
+        left: 50px;
+    }
+}
+@media(max-width:1000px) {
+    .myDiv5 {
+        font-size: 40px;
+    }
+}
+@media(max-width:870px) {
+    .myDiv {
+        font-size: 50px;
+    } 
+    .myDiv2 {
+        font-size: 45px;
+    }
+    .myDiv3 {
+        font-size: 50px;
+    }
+    .myDiv4 {
+        font-size: 33px;
+    }
+    .myDiv5 {
+        font-size: 35px;
+    }
+    .myDiv8 {
+        font-size: 30px;
+    }
+    .myImg {
+        width: 50%;
+    }
+    #mySidenav2 a {
+        height: 10px;
+        position: fixed;
+        padding-bottom: 20px
+    }
+}
+@media(max-width:600px) {
+    .aristotle {
+        position: relative;
+        width: 20%;
+    }  
+    .opening {
+        position: relative;
+        left: 0px;
+        width: 20%;
+    }
+    .welcome {
+        position: relative;
+        left: 50px;
+    }
+    .tasks {
+        position: relative;
+        left: 50px;
+    }
+    .lessons {
+        position: relative;
+        left: 50px;
+    }
+}
+@media(max-width:530px) {
+    li a {
+        font-size: 15px;
+    }
+    ul {
+        height: 64px;
+    }
+    .myDiv {
+        font-size: 30px;
+    }
+    .myDiv2 {
+        font-size: 30px;
+    }
+    .myDiv3 {
+        font-size: 35px;
+    }
+    .myDiv4 {
+        font-size: 25px;
+    }
+    .myDiv5 {
+        font-size: 25px;
+    }
+    .myDiv8 {
+        font-size: 25px;
+    }
+    .Sun { 
+        position: relative;
+        width: 50%;
+        padding-bottom: 250px;
+    }
+    .myImg {
+        width:70%;
+        position: relative;
+        padding-bottom: 100px;
+    }
+    .jupsat { 
+        position: relative;
+        width: 50%;
+    }
+    .aristotle { 
+        position: relative;
+        width: 50%;
+    }
+}
+@media(max-width:390px) {
+    li a {
+        font-size: 10px;
+    }
+    ul {
+        height: 56px;
+    }
+    .myDiv {
+        font-size: 15px;
+    }
+    .myDiv2 {
+        font-size: 20px;
+    }
+    .myDiv4 {
+        font-size: 20px;
+    }
+    .myDiv6 {
+        font-size: 20px;
+    }
+    .myDiv7 {
+        font-size: 20px;
+    }
+}
+
+/* ---     --- */
+
+/*-----sidenaves-------*/
+#welcome {
+    z-index: 2;
+    top: 100px;
+    background-color:darkturquoise;
+}
+#envelope {
+    z-index: 2;
+    top: 160px;
+    background-color:darkturquoise;
+}
+
+#language {
+    z-index: 2;
+    top: 220px;
+    background-color:darkturquoise;
+}
+#todo {
+    z-index: 2;
+    top: 280px;
+    background-color:darkturquoise;
+}
+#calendar {
+    z-index: 2;
+    top: 340px;
+    background-color:darkturquoise;
+}
+#trash2 {
+    z-index: 2;
+    top: 400px;
+    background-color:darkturquoise;
+}
+
+.todo2 {
+    height: 40px;
+}
+.cal {
+    height: 40px;
+}
+/*------sidenave icons-------*/
+#homeicon {
+    position: absolute;
+    text-align: center;
+    top: 6px;
+}
+#envelopeicon {
+    position: absolute;
+    text-align: center;
+    top: 6px;
+}
+#globe {
+    position: absolute;
+    text-align: center;
+    top: 6px;
+}
+#trash {
+    position: absolute;
+    text-align: center;
+    top: 6px;
+}
+#calendaricon {
+     position: absolute;
+    text-align: center;
+    top: 3px;
+}
+#todoicon {
+     position: absolute;
+   left: -3px; 
+    top: 0px;
+}
+#myBtn {
+  display: none;
+  position: relative;
+  bottom: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+    transition: .4s ease-in-out;
+    font-family: 'Noto Sans', cursive;
+    
+}
+
+#myBtn:hover {
+  background-color:white;
+    color: #031424;
+    transition: .6s ease;
+}
+/*-------------ՍԵԿՑԻԱՆԵՐ-----------*/
+/*@import url(https://fonts.googleapis.com/css?family=Noto+Sans+ Armenian:400,300,600);
+/*1-ին սեկցիա*/
+#section01 {
+	position: relative;
+    top: 10px;
+	width: 100%;
+	height: 510px;
+    text-align: center;
+    background-color:#031424;
+    z-index: -1;
+}
+.imgarrow1 {
+    position: relative;
+    top:-205px;
+    width:68px;
+    height: 68px;
+    align-items:center;
+    cursor: pointer;
+}
+#depinergev1{
+    position: relative;
+    top: -200px;
+    color:white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.depinergev1:hover{
+   display: block;
+}
+.centerizing {
+    text-align: center;
+}
+
+/*2-րդ սեկցիա*/
+#section02 {
+	position: relative;
+    top: -184px;
+    margin-top: 0px;
+	width: 100%;
+	height: 550px;
+    text-align: center;
+    background-color:#031934;
+}
+
+.imgarrow2 {
+    position: relative;
+    top:-400px;
+    width:68px;
+    height: 68px;
+    align-items:center;
+    cursor: pointer;
+    opacity: 0.2;
+}
+/*-----img կոճակների թափանցիկություն----*/
+#depinergev2{
+    position: relative;
+    top: -370px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.depinergev2:hover{
+   display: block;
+}
+#section03 {
+	position: relative;
+    top:-355px;
+	width: 100%;
+	height: 505px;
+    text-align: center;
+    background-color:  #17A697;
+}
+.imgarrow3 {
+    position: relative;
+    top:-400px;
+    width:68px;
+    height: 68px;
+    align-items:center;
+    cursor: pointer;
+    opacity: 0.2;
+}
+/*-----img կոճակների թափանցիկություն----*/
+#depinergev3{
+    position: relative;
+    top: -550px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.depinergev3:hover{
+   display: block;
+}
+#section04 {
+	position: relative;
+    top:-550px;
+	width: 100%;
+	height: 505px;
+    text-align: center;
+    background-color:black;
+}
+
+/*-----img կոճակների թափանցիկություն----*/
+#depinergev4{
+    position: relative;
+    top: -980px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.depinergev4:hover{
+   display: block;
+}
+#section05 {
+	position: relative;
+    top:-955px;
+	width: 100%;
+	height: 750px;
+    text-align: center;
+    background-color:  #000000;
+}
+.imgarrow3 {
+    position: relative;
+    top:-400px;
+    width:68px;
+    height: 68px;
+    align-items:center;
+    cursor: pointer;
+    opacity: 0.2;
+}
+/*-----img կոճակների թափանցիկություն----*/
+#depinergev5{
+    position: relative;
+    top: -1690px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.depinergev5:hover{
+   display: block;
+}
+#section06 {
+	position: relative;
+    top:-1680px;
+	width: 100%;
+	height: 760px;
+    text-align: center;
+    background-color: #000911;
+}
+.imgarrow3 {
+    position: relative;
+    top:-400px;
+    width:68px;
+    height: 68px;
+    align-items:center;
+    cursor: pointer;
+    opacity: 0.2;
+}
+/*-----img կոճակների թափանցիկություն----*/
+#depinergev6 {
+    position: relative;
+    top: -2340px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.depinergev6:hover{
+   display: block;
+}
+#section07 {
+	position: relative;
+    top:-2330px;
+	width: 100%;
+	height: 560px;
+    text-align: center;
+    background-color:  #00d389;
+}
+.imgarrow3 {
+    position: relative;
+    top:-400px;
+    width:68px;
+    height: 68px;
+    align-items:center;
+    cursor: pointer;
+    opacity: 0.2;
+}
+/*-----img կոճակների թափանցիկություն----*/
+#depinergev7 {
+    position: relative;
+    top: -2870px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.depinergev7:hover{
+   display: block;
+}
+#section08 {
+	position: relative;
+    top:-2865px;
+	width: 100%;
+	height: 560px;
+    text-align: center;
+    background-color:  #02d6d6;
+}
+.imgarrow3 {
+    position: relative;
+    top:-400px;
+    width:68px;
+    height: 68px;
+    align-items:center;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+/*-----img կոճակների թափանցիկություն----*/
+#depinergev8 {
+    position: relative;
+    top: -3360px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.depinergev8:hover{
+   display: block;
+}
+/*---myFont---*/
+@font-face{
+    src:url("NotoSans-Bold.ttf");
+    font-family:"Noto Sans";
+}

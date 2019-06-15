@@ -1,0 +1,250 @@
+html {
+    background-color: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Armfont';
+    transition: background-color .5s;
+        
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-nav {
+    padding-left: 15px;
+    display: flex;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar-nav a {
+    background-color: transparent;
+    border: none;
+    padding: 5px 12px;
+    position: relative;
+}
+
+
+.logo1 {
+    position: relative;
+    top: -15px;
+    width: 170px;
+}
+
+.phb {
+    position: fixed;
+    top: -5px;
+    background-color: #031424;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    height: 70px;
+}
+
+ul {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    
+}
+#myUl a {
+    list-style-type: none;
+    position: relative;
+    top: 80px;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: #f1f1f1;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #031424;
+    display: block;
+}
+#myUl a:hover {
+    background-color: #eee;
+}
+
+/* --- --- */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #666;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* --- footer --- */
+
+.footer {
+    border: none;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #031424;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footer a {
+    position: relative;
+    top: 7px;
+    transition: 0.1s;
+    font-size: 23px;
+    z-index: 3;
+    padding: 5%;
+}
+
+.f2,
+.f3,
+.f1,
+.f5 {
+    color: #c7c7c7;
+}
+
+.f4 {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+@media(max-width: 576px) {
+    .line4 {
+        height: 110px;
+    }
+    #hpac {
+        font-size: 20px;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    .line4 {
+        display: none;
+    }
+    .navbar {
+        height: 0px;
+    }
+    #myUl a {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:334px) {
+    .line4 {
+        /*  height: 1px;
+        width: 150px;
+        position: absolute;
+        top: -120px;
+        margin: auto;
+        right: 0;
+        bottom: 0;
+        left: 0;  */
+        display: none;
+    }
+    .wip {
+        font-size: 20px;
+    }
+    .wip2 {
+        font-size: 13px;
+    }
+    .navbar-brand img {
+        width: 170px;
+        padding-top: 0px;
+    }
+    .navbar-nav {
+        padding-top: 70px;
+        padding-left: 0px;
+        width: 100%;
+        display: none;
+    }
+    .navbar-nav a {
+        text-align: center;
+        float: none;
+    }
+    .navbar {
+        position: absolute;
+        height: 0px;
+    }
+}
+
+/* --- Demo with Parallax Scrolling --- */
+
+body,
+html {
+    height: 100%;
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+@font-face {
+    src: url("Quicksand-Regular.ttf");
+    font-family: "Quicksand";
+}
+@font-face {
+    src: url("Baloo-Thambi.ttf");
+    font-family: "Baloo Thambi";
+}
+@font-face {
+    src: url("Armfont.ttf");
+    font-family: "Armfont";
+}

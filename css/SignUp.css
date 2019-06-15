@@ -1,0 +1,538 @@
+ body {   
+    background-color: #031424;
+}
+.wrapper {
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 300px;
+  margin: -150px 0 0 -150px;
+  position: absolute;
+  top: 47%;
+    left: -170px;
+    z-index: 1;
+}
+
+.input {
+      background-color: transparent;
+  border: none;
+  color: #00ced1;
+  box-sizing: border-box;
+  font-family: 'Baloo Thambi';
+  font-size: 23px;
+  height: 20px;
+    left: 1200px;
+  margin: -25px 0 0 -100px;
+  padding: 10px 10px;
+  position: relative;
+  top: -100px;
+  width: 200px;
+    z-index: 1;
+}
+.input:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: darkturquoise;
+}
+
+.input:focus + .underline {
+  transform: scale(1);
+}
+
+.underline {
+  background-color: darkturquoise;
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  top: -90px;
+  left: 1000px;
+  margin-top: -4px;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  width: 202px;
+}
+.heading {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: 'Baloo Thambi', cursive;
+    font-size:50px;
+    color: white; 
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    
+        }
+.heading:hover{
+    color: darkturquoise;
+    transition: .6s ease;
+} 
+#mySelect {
+    position:relative;
+    border-radius: 3px;
+    font-family: 'Baloo Thambi' , cursive;
+    top: 380px;
+    left: 152px;
+    color:#031424;
+}
+        
+#number {
+    position: relative;
+    border-radius: 3px;
+    width: 120px;
+    height: 25px;
+    top: 380px;
+    background-color: white;
+    color:#031424;
+    left: 157px;
+}
+.wrapper-2 {
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 300px;
+  margin: -150px 0 0 -150px;
+  position: absolute;
+  top: 55%;
+    left: -170px;
+    z-index: 1;
+}
+
+.input-2 {
+  background-color: transparent;
+  border: none;
+  color: #00ced1;
+  box-sizing: border-box;
+  font-family: 'Baloo Thambi';
+  font-size: 23px;
+  height: 20px;
+  left: 1200px;
+  margin: -25px 0 0 -100px;
+  padding: 10px 10px;
+  position: relative;
+  top: -100px;
+  width: 200px;
+    z-index: 1;
+}
+.input-2:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: darkturquoise;
+}
+
+.input-2:focus + .underline {
+  transform: scale(1);
+}
+
+.wrapper-3 {
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 300px;
+  margin: -150px 0 0 -150px;
+  position: absolute;
+  top: 80%;
+    left: -170px;
+    z-index: 1;
+}
+
+.input-3 {
+  background-color: transparent;
+  border: none;
+  color: #00ced1;
+  box-sizing: border-box;
+  font-family: 'Baloo Thambi';
+  font-size: 23px;
+  height: 20px;
+  left: 1200px;
+  margin: -25px 0 0 -100px;
+  padding: 10px 10px;
+  position: relative;
+  top: -100px;
+  width: 200px;
+    z-index: 1;
+}
+.input-3:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: darkturquoise;
+}
+
+.input-3:focus + .underline {
+  transform: scale(1);
+}
+.wrapper-4 {
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 300px;
+  margin: -150px 0 0 -150px;
+  position: absolute;
+  top: 88%;
+    left: -170px;
+    z-index: 1;
+}
+
+.input-4 {
+  background-color: transparent;
+  border: none;
+  color: #00ced1;
+  box-sizing: border-box;
+  font-family: 'Baloo Thambi';
+  font-size: 23px;
+  height: 20px;
+  left: 1200px;
+  margin: -25px 0 0 -100px;
+  padding: 10px 10px;
+  position: relative;
+  top: -100px;
+  width: 200px;
+    z-index: 1;
+}
+.input-4:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: darkturquoise;
+}
+
+.input-4:focus + .underline {
+  transform: scale(1);
+}
+
+.wrapper-5 {
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 300px;
+  margin: -150px 0 0 -150px;
+  position: absolute;
+  top: 96%;
+    left: -170px;
+    z-index: 1;
+}
+
+.input-5 {
+  background-color: transparent;
+  border: none;
+  color: #00ced1;
+  box-sizing: border-box;
+  font-family: 'Baloo Thambi';
+  font-size: 23px;
+  height: 20px;
+  left: 1200px;
+  margin: -25px 0 0 -100px;
+  padding: 10px 10px;
+  position: relative;
+  top: -100px;
+  width: 200px;
+    z-index: 1;
+}
+.input-5:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: darkturquoise;
+}
+
+.input-5:focus + .underline {
+  transform: scale(1);
+}
+
+select {
+    position:relative; 
+    border-radius: 3px;
+    font-family: 'Baloo Thambi' , cursive;
+    top: 160px;
+    color:#031424;
+    z-index: 1;
+}
+.myLabel {
+    position: relative;
+    top: 200px;
+    left: -210px;
+    font-family: 'Baloo Thambi';
+    box-sizing: border-box;
+    z-index: 1;
+}
+.Submit {
+    position:relative;
+    border-radius: 20px;
+    display: inline-block;
+    border: none;
+    color: #031424;
+    background-color: floralwhite;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 20px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Baloo Thambi' , cursive;
+    top: 420px;
+    transition: .4s ease-in-out;
+}
+.Submit:hover {
+    background-color: #031424;
+    transition: .6s ease;
+    color:white; 
+}
+.row {
+    width: 100%;
+    position: relative;
+     top: 450px;
+    left: -45px;
+    z-index: 1;
+}
+.row li a {
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Baloo Thambi',cursive;
+    color: #031424;
+}
+.row a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.row a::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: darkturquoise;
+  bottom: -4px;
+  transform: scale(0, 1);
+  transition: transform .3s;
+  transform-origin: center;
+}
+.row a:hover::after {
+  transform: scale(1, 1);
+}
+#board {
+    position: relative;
+    background-color:floralwhite;
+    background-clip: padding-box;
+    top: -100px;
+    height: 650px;
+    width: 450px;
+    border-radius: 2em;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #00ced1;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #00ced1;
+}
+
+input[type=radio]:checked ~ label{
+  color: #00ced1;
+}
+
+/* ------- Changing placholder font-family ------- */
+input[type=text],input[type=password]::-webkit-input-placeholder { 
+  font-family: 'Baloo Thambi', cursive;
+}
+input[type=text],input[type=password]:-moz-placeholder { 
+  font-family: 'Baloo Thambi' ,cursive;
+}
+input[type=text],input[type=password]:-ms-input-placeholder {
+  font-family: 'Baloo Thambi' ,cursive;
+}
+/*---myFont---*/
+@font-face{
+    src:url("Baloo-Thambi.ttf");
+    font-family:"Baloo Thambi";
+}
+/*****  @media-ներ  *****/
+@media screen and (max-width:5000px) {
+    .wrapper {
+        position: absolute;
+        left: -910px;
+    }
+    .wrapper-2 {
+        position: absolute;
+        left: -910px;
+    }
+    .wrapper-3 {
+        position: absolute;
+        left: -910px;
+    }
+    .wrapper-4 {
+        position: absolute;
+        left: -910px;
+    }
+    .wrapper-5 {
+        position: absolute;
+        left: -910px;
+    }
+}
+@media screen and (max-width:500px) {
+    #board {
+        width: 400px;
+    }
+    select {
+        position: relative;
+        left: 20px;
+    }
+    .myLabel {
+        position: relative;
+        left: -190px; 
+    }
+}
+@media screen and (max-width:450px) {
+    #board {
+        position: relative;
+        top: -70px;
+        width: 350px;
+        height: 600px;
+    }
+    select {
+        position: relative;
+        top: 170px;
+        left: 45px;
+    }
+    .myLabel {
+        position: relative;
+        top: 210px;
+        left: -170px; 
+    }
+    .wrapper {
+        position: absolute;
+        top: 295px;
+    }
+    .wrapper-2 {
+        position: absolute;
+        top: 340px;
+    }
+    .wrapper-3 {
+        position: absolute;
+        top: 480px;
+    }
+    .wrapper-4 {
+        position: absolute;
+        top: 525px;
+    }
+    .wrapper-5 {
+        position: absolute;
+        top: 570px;
+    }
+}
+@media screen and (max-width:400px) {
+    #board {
+        position: relative;
+        top: -70px;
+        width: 300px;
+        height: 600px;
+    }
+    select {
+        position: relative;
+        left: 70px;
+    }
+    .myLabel {
+        position: relative;
+        left: -140px; 
+    }
+}
+@media screen and (max-width:370px) {
+    #board {
+        position: relative;
+        top: -70px;
+        width: 250px;
+        height: 550px;
+    }
+    select {
+        position: relative;
+        left: 80px;
+    }
+    .myLabel {
+        position: relative;
+        left: -130px; 
+    }
+    .input {
+        font-size: 20px;
+    }
+    .input-2 {
+        font-size: 20px;
+    }
+    .input-3 {
+        font-size: 20px;
+    }
+    .input-4 {
+        font-size: 20px;
+    }
+    .input-5 {
+        font-size: 20px;
+    }
+    .myDiv {
+        position: absolute;
+        left: -10px;
+    }
+    .row li a {
+        position: relative;
+        font-size: 25px;
+        top: -50px;
+    }
+}
+@media screen and (max-width:330px) {
+    #board {
+        position: relative;
+        top: -70px;
+        width: 215px;
+        height: 550px;
+    }
+    select {
+        position: relative;
+        top: 190px;
+        left: 45px;
+    }
+    .myLabel {
+        position: relative;
+        top: 230px;
+        left: -140px; 
+    }
+    .heading {
+        font-size: 40px;
+    }
+    .myDiv {
+        position: relative;
+        left: -20px;
+    }
+    .underline {
+        width: 150px;
+    }
+}
+@media screen and (max-width:270px) {
+    select {
+        position: relative;
+        left: 13px;
+    }
+}

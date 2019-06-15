@@ -1,0 +1,75 @@
+.heading {   
+     position:absolute;
+    top: 0px;
+          right:890px;
+    font-family: 'Baloo Thambi', cursive;
+    font-size:50px;
+    color: white; 
+    cursor: pointer;
+    transition: .4s ease-in-out;
+        }
+.heading:hover{
+    color: darkturquoise;
+    transition: .6s ease;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+    color:#031424;
+}   
+input[type=submit] {  
+    position:relative;
+    border-radius: 20px;
+    border: none;
+    background-color: floralwhite;
+    display: inline-block;
+    color: #031424;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 20px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Baloo Thambi', cursive;
+    top: 0px;
+    transition: .4s ease-in-out;
+}
+input[type=submit]:hover {
+    background-color: #031424;
+    transition: .6s ease;
+    color:white; 
+}
+.container {
+    position: relative;
+    border-radius: 20px;
+     background-color:floralwhite;
+    padding: 20px;
+    top: 100px;
+    width: 500px;
+    left: 670px;
+}
+body {
+background-color:#031424;
+}
+label {
+    font-family: 'Baloo Thambi',cursive;
+}
+/* ------- Changing placholder font-family ------- */
+input[type=text],input[type=password],textarea[type=submit]::-webkit-input-placeholder { 
+  font-family: 'Baloo Thambi', cursive;
+}
+input[type=text],input[type=password],textarea[type=submit]:-moz-placeholder { 
+  font-family: 'Baloo Thambi' ,cursive;
+}
+input[type=text],input[type=password],textarea[type=submit]:-ms-input-placeholder {
+  font-family: 'Baloo Thambi' ,cursive;
+}
+@font-face{
+    src:url("Baloo-Thambi.ttf");
+    font-family:"Baloo Thambi";
+}

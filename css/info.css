@@ -1,0 +1,15 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand';
+}
+
+@font-face {
+    src: url("Quicksand-Regular.ttf");
+    font-family: "Quicksand";
+}

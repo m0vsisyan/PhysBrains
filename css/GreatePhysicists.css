@@ -1,0 +1,207 @@
+body {  
+background-color:#031424;
+}
+.container {
+    position: relative;
+    border-radius: 20px;
+     background-color:floralwhite;
+    padding: 20px;
+    top: 100px;
+    left:500px;
+    width: 820px;
+    height:1000px;
+    z-index:-1;
+    color:floralwhite;
+}
+#life {
+position:absolute;
+width:500px; 
+top:230px;
+left:830px;
+    font-family: 'Baloo Thambi', cursive;
+color:#031424; 
+} 
+#life2 {  
+position:absolute;
+width:750px; 
+top:405px;
+left:565px;
+    font-family: 'Baloo Thambi', cursive;
+   color:#031424;
+} 
+.isaacnewton {
+    position: absolute;
+    border-radius: 360px;
+    top: 200px;
+    left: 520px;
+}
+.heading {
+     position:absolute;
+    top: 0px;
+          right:800px;
+    font-family: 'Baloo Thambi', cursive;
+    font-size:50px;
+    color: white; 
+    cursor: pointer;
+    transition: .4s ease-in-out;
+        }
+.heading:hover{
+    color: darkturquoise;
+    transition: .6s ease;
+}
+.container2 {
+     position: relative;
+    border-radius: 20px;
+     background-color:floralwhite;
+    padding: 20px;
+    top: 200px;
+    left:500px;
+    width: 820px;
+    height:920px;
+    z-index:-1;
+    color:floralwhite;
+}
+#life3 {
+    position:absolute;
+width:500px;
+top:1270px;
+left:830px;
+    font-family: 'Baloo Thambi', cursive;
+   color:#031424;
+}
+#life4 {
+        position:absolute;
+width:750px;
+top:1795px;
+left:565px;
+    font-family: 'Baloo Thambi', cursive;
+   color:#031424;
+}
+.alberteinstein {
+        position: absolute;
+    border-radius: 360px;
+    width:300px;
+    height: 400px;
+    top: 1300px;
+    left: 520px;
+}
+.galileogalilei {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border-radius: 360px;
+    top: 2370px;
+    left: 530px;
+}
+.heading2 {
+     position:absolute;
+    top: 1150px;
+          right:800px;
+    font-family: 'Baloo Thambi', cursive;
+    font-size:50px;
+    color: white; 
+    cursor: pointer;
+    transition: .4s ease-in-out;
+        }
+.heading2:hover{
+    color: darkturquoise;
+    transition: .6s ease;
+}
+.container3 {
+     position: relative;
+    border-radius: 20px;
+     background-color:floralwhite;
+    padding: 20px;
+    top: 300px;
+    left:500px;
+    width: 820px;
+    height:1010px;
+    z-index:-1;
+    color:floralwhite;
+}
+#life5 {
+    position:absolute;
+width:420px;
+top:2350px;
+left:900px;
+    font-family: 'Baloo Thambi', cursive;
+   color:#031424;
+}
+#life6 {
+        position:absolute;
+width:750px;
+top:2625px;
+left:565px;
+    font-family: 'Baloo Thambi', cursive;
+   color:#031424;
+}
+.heading3 {
+     position:absolute;
+    top: 2200px;
+          right:800px;
+    font-family: 'Baloo Thambi', cursive;
+    font-size:50px;
+    color: white; 
+    cursor: pointer;
+    transition: .4s ease-in-out;
+        }
+.heading3:hover{
+    color: darkturquoise;
+    transition: .6s ease;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+    transition: .4s ease-in-out;
+    font-family: 'Baloo Thambi', cursive;
+    
+}
+
+#myBtn:hover {
+  background-color:white;
+    color: #031424;
+    transition: .6s ease;
+}
+.pagination {
+    position: absolute;
+    display: inline-block;
+    top: 3410px;
+    font-family: 'Baloo Thambi', cursive;
+    left: 790px;
+}
+
+.pagination a {
+    color:white;
+    background-color:#031424;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: .4s ease-in-out;
+}
+.pagination a:hover {
+color:#031424;
+background-color: white;
+    transition:.6 ease;
+}
+.pagination a.active {
+    background-color: white;
+    color: #031424;
+    border-radius: 10px;
+}
+
+.pagination a:hover:not(.active) {
+    border-radius: 10px;
+}
+@font-face{
+    src:url("Baloo-Thambi.ttf");
+    font-family:"Baloo Thambi";
+}

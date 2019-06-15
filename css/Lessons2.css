@@ -1,0 +1,356 @@
+h1.heading {     
+     position:absolute;
+    top: 0px;
+          right:890px;
+    font-family: 'Baloo Thambi', cursive;
+    font-size:50px;
+    color: white; 
+    cursor: pointer;
+    transition: .4s ease-in-out;
+        }
+.heading:hover{
+    color: darkturquoise;
+    transition: .6s ease;
+}
+.container {
+    position: absolute;
+    text-align: center;
+    border-radius: 20px;
+     background-color:floralwhite;
+    top: 120px;
+    left: 170px;
+    height: 2250px;
+    width: 1600px;
+    z-index: -1;
+}
+.lesson1 {
+    position: absolute;
+    top: 630px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson2 {
+    position: absolute;
+    top: 680px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson3 {
+    position: absolute;
+    top: 730px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson4 {
+    position: absolute;
+    top: 780px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson5 {
+    position: absolute;
+    top: 830px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson6 {
+    position: absolute;
+    top: 880px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson7 {
+    position: absolute;
+    top: 930px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson8 {
+    position: absolute;
+    top: 980px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson9 {
+    position: absolute;
+    top: 1030px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson10 {
+    position: absolute;
+    top: 1080px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson11 {
+    position: absolute;
+    top: 1130px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson12 {
+    position: absolute;
+    top: 1180px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson13 {
+    position: absolute;
+    top: 1230px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson14 {
+    position: absolute;
+    top: 1280px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson15 {
+    position: absolute;
+    top: 1330px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson16 {
+    position: absolute;
+    top: 1380px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson17 {
+    position: absolute;
+    top: 1430px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson18 {
+    position: absolute;
+    top: 1480px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson19 {
+    position: absolute;
+    top: 1530px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson20 {
+    position: absolute;
+    top: 1580px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson21 {
+    position: absolute;
+    top: 1630px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson22 {
+    position: absolute;
+    top: 1680px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson23 {
+    position: absolute;
+    top: 1730px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson24 {
+    position: absolute;
+    top: 1780px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson25 {
+    position: absolute;
+    top: 1830px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson26 {
+    position: absolute;
+    top: 1880px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson27 {
+    position: absolute;
+    top: 1930px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson28 {
+    position: absolute;
+    top: 1980px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson29 {
+    position: absolute;
+    top: 2030px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson30 {
+    position: absolute;
+    top: 2080px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson31 {
+    position: absolute;
+    top: 2130px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson32 {
+    position: absolute;
+    top: 2180px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson33 {
+    position: absolute;
+    top: 2230px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+.lesson34 {
+    position: absolute;
+    top: 2280px;
+    left: 250px;
+    font-size: 25px;
+    color: #301424;
+    transition: .3s ease-in-out;
+}
+a:active {
+    color: darkturquoise;
+}
+a {
+    color: #031424;
+}
+a:hover {
+    color: darkturquoise;
+    transition: .3s ease;
+}
+a[tabindex]:focus {
+    color:darkturquoise;
+    outline: none;
+}
+body {
+background-color: #031424;
+}
+
+ 
+
+h1.deepshadow {
+    position: relative;
+    top: 130px;
+    left: 230px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 130px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+    z-index: 100;
+    color: darkturquoise;
+    background-color: #031424;
+    width: 600px;
+    letter-spacing: .2em;
+    text-align: center;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+}
+@font-face{
+    src:url("Baloo-Thambi.ttf");
+    font-family:"Baloo Thambi";
+}
