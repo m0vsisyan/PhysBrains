@@ -1,3 +1,4 @@
+<?php require './fb-init.php'; ?>
 <!DOCTYPE html>
 <html>
 
@@ -34,7 +35,7 @@
     <link rel="stylesheet" href="css/normalize.css">
 
     <!--Պատասխանատու է տարբեր չափսի էկրաններին կոնտեքստը ճիշտ ձևով ցուցադրելու համար-->
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/log-in.css">
 
 
     <!-- Favicon, բրենդի փոքր պատկերը բրաուզերի թաբում
@@ -51,36 +52,60 @@
 </head>
 
 <body>
+    <div class="design">
+        <p style="font-family: 'Baloo Thambi';display: inline-block;">PhysBrains</p>
+        <p style="font-family: 'Armfont'; display: inline-block;"> Օնլայն Լաբորատորիա</p>
+        <p class="_sub">Այստեղ դու կարող ես բացահայտել ֆիզիկայի թաքնված գաղտնիքները</p>
+    </div>
+    <img src="IMAGES/3.jpg" class="bd">
     <div class="cycle">
         <section class="get">
-          <button>Get</button>
+            <button>Get</button>
             <div class="name">
-            <p class="_phtitle">PhysHub</p>
-            <p class="_phsubtitle">Find it for free on the Google Play</p>
+                <p class="_phtitle">PhysBrains</p>
+                <p class="_phsubtitle">Find it for free on the Google Play</p>
             </div>
         </section>
-            
-    </div>
-    <!--<img src="Images/iphone.png" class="iphone">
-    <!--<img src="Images/240752.png">-->
 
-    <div class="container myDiv">
-        <div class="container">
-            <h1 class="title">PhysBrains</h1>
-        </div>
-        <div class="">
-            <form>
-                <div class="container">
-                    <input placeholder="Username or E-mail" class="it1" required>
-                    <input placeholder="Password" type="password" required>
+    </div>
+<div class="_Div">
+        <div class="container-fluid myDiv">
+            <div class="container">
+                <h1 class="title">PhysBrains</h1>
+            </div>
+            <div class="">
+                <div class="face">
+                  <div class="Lines">
+                        <div class="line"></div>
+                        <h6 class="or">Կամ</h6>
+                        <div class="line2"></div>
+                            <a href="<?php echo $login_url; ?>" style="text-decoration: none;"><span class="wf"><i class="fa fa-facebook-official ficon"></i>Անդամագրվել Ֆեյսբուքով</span></a>
+                    <span class="forgotpass"><a href="forgot-pass.php">Մոռացել ես գաղտանբառը ?</a></span>
+                  </div>
                 </div>
-                <div class="sp">Log in</div>
-            </form>
+                <?php
+                if(isset($_GET["newpwd"])) {
+                    if($_GET["newpwd"] = "passwordupdated") {
+                        echo '<p class="signupsuccess">your assword has been reset!</p>';
+                    }
+                }
+                ?>
+                <form action="validation.php" method="POST">
+                    <div class="container">
+                        <input placeholder="Ծածկանուն" name="username" required>
+                        <input placeholder="Գաղտնաբառ" type="password" name="password" required>
+                    </div>
+                    <a href="" style="text-decoration: none;"><button type="submit" class="sp">Մուտք</button></a>
+                </form>
+            </div>
+        </div>
+        <div class="line3 d-block d-sm-none"></div>
+        <div class="top container-fluid myDiv2">
+            <p class="myP"> Հաշիվ չունես ? <a style="text-underline:none;" href="register.php">Գրանցվել</a> </p>
         </div>
     </div>
-    <div class="line3 d-block d-sm-none"></div>
-    <div class="footer top container myDiv2">
-        <p class="myP"> Don't have an account ? <a href="home.html">Sign Up</a> </p>
+    <div class="footer top container-fluid myDiv3">
+        <p class="myP"> Հաշիվ չունես ? <a href="register.php">Գրանցվել</a> </p>
     </div>
 </body>
 

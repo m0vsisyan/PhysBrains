@@ -103,6 +103,21 @@ li a {
         transition: all 0.2s linear;
         width: 20px;
 }
+
+.logout {
+    position: relative;
+    margin-left: 1050px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.logout a {
+    text-decoration: none;
+    color: #031424;
+    font-weight: bold;
+
+}
+
 .profile {
     padding: 5px;
 }

@@ -1,3 +1,6 @@
+<?php
+require './fb-init.php';
+?>
 <!DOCTYPE html>
 <html lang="hy">
 
@@ -37,7 +40,7 @@
     <link rel="stylesheet" href="css/normalize.css">
 
     <!--Պատասխանատու է տարբեր չափսի էկրաններին կոնտեքստը ճիշտ ձևով ցուցադրելու համար-->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/m-ain.css">
     <link rel="stylesheet" type="text/css" href="css/loading.css">
 
     <!-- Favicon, բրենդի փոքր պատկերը բրաուզերի թաբում
@@ -67,8 +70,8 @@
                              </a>
                     </div>
                 </div>
-                <h5>Name Surname</h5>
-                <h6>username@gmail.com</h6>
+                <a href="<php echo $username; ?>">Username</a>
+                <a href="">Email</a>
             </div>
             <div class="line"></div>
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -116,6 +119,8 @@
             <span class="underline"></span>
             <li class="nav-item"><a class="nav-link" href="#" id="hpac" onclick="load()">Կուրսեր</a></li>
             <span class="underline"></span>
+
+            <button class="logout"><a href="logout.php">Դուրս գալ</a></button>
         </ul>
         <div class="atomLoader" id="load">
                 <div class="contentAtoms">
